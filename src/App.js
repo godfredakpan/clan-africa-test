@@ -223,7 +223,7 @@ const App = () => {
         >
           <div className="flex-grow">{renderStepContent()}</div>
           {currentStep !== 5 && (
-            <div className="flex justify-between absolute bottom-0 left-0 right-0 bg-white px-4 py-4 md:static md:p-8 md:pt-0">
+            <div className="flex justify-between absolute bottom-0 left-0 right-0 bg-white px-4 py-4 md:static mt-10 md:p-8 md:pt-0">
               {currentStep > 1 && (
                 <button
                   onClick={handleBack}

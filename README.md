@@ -43,7 +43,7 @@ Ensure you have the following installed on your system:
 ## App Links
 
 - Solution URL: https://github.com/godfredakpan/clan-africa-test
-- Live URL: [@godfredakpan](https://www.linkedin.com/in/godfredakpan)
+- Live URL: https://clan-africa-mu.vercel.app
 
 ## Technologies Used
 

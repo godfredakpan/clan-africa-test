@@ -219,11 +219,14 @@ const App = () => {
         {/* Content */}
         <div
           className="w-full md:w-2/3 p-8 flex flex-col  "
-          style={{ minHeight: "575px" }}
+          style={{ minHeight: window.innerWidth < 768 ? "585px" : "575px", height:  window.innerWidth < 768 ? "685px" : "575px" }}
         >
           <div className="flex-grow">{renderStepContent()}</div>
           {currentStep !== 5 && (
-            <div className="flex justify-between absolute bottom-0 left-0 right-0 bg-white px-4 py-4 md:static mt-10 md:p-8 md:pt-0">
+
+            <div className={`flex justify-between absolute bottom-0 left-0 right-0 bg-white px-4 py-4 md:static md:p-8 md:pt-0 ${
+              window.innerWidth < 768 ? "mt-40" : ""
+            }`}>
               {currentStep > 1 && (
                 <button
                   onClick={handleBack}

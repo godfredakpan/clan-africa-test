@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hsl(217, 100%, 97%);
+  }
+
+p{
+    font-size: 16px;
+}
+
+.plan-card{
+    height: "65vh";
+}
+
+
+.menu-item-text{
+    font-weight: 700;
+}

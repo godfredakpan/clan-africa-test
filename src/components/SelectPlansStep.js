@@ -55,7 +55,7 @@ const SelectPlansStep = ({
         ))}
       </div>
 
-      <div className="flex justify-center bg-alabaster py-4 rounded items-center mt-6  mb-10">
+      <div className="flex justify-center bg-alabaster py-4 rounded items-center mt-6 ">
         <span className="mr-2 text-coolGray">Monthly</span>
         <label className="inline-flex items-center cursor-pointer">
           <input
